@@ -1,0 +1,13 @@
+<p>cep works!</p>
+<form [formGroup]="viacepForm">
+
+  <div>
+    <label for="cep">
+      CEP
+    </label>
+    <input id="cep" type="text" formControlName="cep">
+  </div>
+
+  <button class="button" (click)="onSubmit()" type="submit">buscar</button>
+
+</form>
