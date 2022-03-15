@@ -23,7 +23,6 @@ export class CepComponent implements OnInit {
 
   onSubmit() {
     var cep = this.viacepForm.value;
-    console.log(cep.cep)
     this.viaCepService.getEndereco(cep.cep).pipe().subscribe((viacep:ViaCepModel)=>{
       console.log(viacep)
     });

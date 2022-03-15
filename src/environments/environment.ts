@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  viacepApi: 'https://sleepy-everglades-99719.herokuapp.com/viacep'
+  viacepApi: 'http://localhost:8080/viacep'
 };
 
 /*
